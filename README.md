@@ -1,8 +1,8 @@
 # F2VAE
 
-python main.py train --dataset_name=lfm2b --processed_dir=/lustre/scratch/gnroca/lfm1b_intersec/ --target=country --beta=0.5 --gamma=0.5 --tau=0.5
+python main.py train --dataset_name=lfm2b --processed_dir=/data/lfm2b/ --target=country --beta=0.5 --gamma=0.5 --tau=0.5
 
-python main.py test --dataset_name=lfm2b --processed_dir=/lustre/scratch/gnroca/lfm1b_intersec/ --target=country --beta=0.5 --gamma=0.5 --tau=0.5
+python main.py test --dataset_name=lfm2b --processed_dir=/data/lfm2b/ --target=country --beta=0.5 --gamma=0.5 --tau=0.5
 
 
 
